@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif !important;
+}
+.flex-center{
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+}
+.login-box--container{
+	width: 100%;
+	background-color: #00689f;
+	height: 100vh;
+}
+.login-box{
+	width: 300px;
+	height: 100%;
+	background-color: inherit;
+	margin: 0 5px;
+	color: white;
+}
+
+.login-box--credentials{
+	margin-top: 20vh;
+	text-align: center;
+}
+
+.login-input input{
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	background-color: inherit;
+	border: 0;
+	border-bottom: 2px solid #bbb;
+	color: white;
+	height: 2em;
+	box-sizing: border-box;
+	-webkit-transition: all .4s ease-out;
+	-moz-transition: all .4s ease-out;
+	-ms-transition: all .4s ease-out;
+	-o-transition: all .4s ease-out;
+	transition: all .4s ease-out;
+}
+input:focus::-webkit-input-placeholder {
+	-webkit-transition: all .2s ease-out;
+	color:transparent;
+}
+input:focus:-moz-placeholder {
+	-moz-transition: all .2s ease-out;
+	color:transparent;
+} /* FF 4-18 */
+input:focus::-moz-placeholder {
+	-moz-transition: all .2s ease-out;
+	color:transparent;
+} /* FF 19+ */
+input:focus:-ms-input-placeholder {
+	-ms-transition: all .2s ease-out;
+	color:transparent;
+} /* IE 10+ */
+.login-input *::-webkit-input-placeholder {
+    color: #bbb;
+}
+.login-input *:-moz-placeholder {
+    /* FF 4-18 */
+    color: #bbb;
+}
+.login-input *::-moz-placeholder {
+    /* FF 19+ */
+    color: #bbb;
+}
+.login-input *:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #bbb;
+}
+.login-input input:focus {
+	outline: none;
+	/*border-bottom: 2px solid;*/
+	border-color: white;
+}
+.login-input{
+	margin-top: 40px;
+}
+.button--base{
+	font-family: 'Roboto', sans-serif;
+	border-radius: 2px;
+	border: 0;
+	cursor: pointer;
+}
+.button--medium{
+	width: 90px;
+	height: 2.5em;
+}
+.button--login{
+	margin-top: 50px;
+	float: right;
+	background-color: white;
+	color: #00689f;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+.button--login:hover{
+	background-color: #4BA3C3;
+	color: white;
+}
+.button--login:focus{
+	outline: none;
+}
+.login-box--bottom{
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+	width: 100%
+}
+.login-box--bottom a{
+	color: white;
+	font-size: 12px;
+	text-decoration:none;
+}
+.login-box--bottom a:hover{
+	text-decoration:underline;
+}
