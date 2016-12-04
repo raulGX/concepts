@@ -74,7 +74,7 @@ input:focus:-ms-input-placeholder {
 }
 .login-input input:focus {
 	outline: none;
-	/*border-bottom: 2px solid;*/
+	border-bottom: 3px solid;
 	border-color: white;
 }
 .login-input{
