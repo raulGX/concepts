@@ -13,7 +13,7 @@ body{
 	height: 100vh;
 }
 .login-box{
-	width: 300px;
+	width: 350px;
 	height: 100%;
 	background-color: inherit;
 	margin: 0 5px;
@@ -29,16 +29,17 @@ body{
 	font-family: 'Roboto', sans-serif;
 	width: 100%;
 	background-color: inherit;
+	font-size: 1em;
 	border: 0;
-	border-bottom: 2px solid #bbb;
+	border-bottom: 2.5px solid #bbb;
 	color: white;
-	height: 2em;
+	height: 2.5em;
 	box-sizing: border-box;
-	-webkit-transition: all .4s ease-out;
+	-webkit-transition: all .4s ease-in-out;
 	-moz-transition: all .4s ease-out;
 	-ms-transition: all .4s ease-out;
 	-o-transition: all .4s ease-out;
-	transition: all .4s ease-out;
+	transition: all .4s ease-in-out;
 }
 input:focus::-webkit-input-placeholder {
 	-webkit-transition: all .2s ease-out;
@@ -86,12 +87,15 @@ input:focus:-ms-input-placeholder {
 	cursor: pointer;
 }
 .button--medium{
-	width: 90px;
+	width: 100px;
 	height: 2.5em;
 }
 .button--login{
-	margin-top: 50px;
-	float: right;
+	display: block;
+	margin: 50px auto 20px auto;
+	left: 0;
+	right: 0;
+	font-size: 1em;
 	background-color: white;
 	color: #00689f;
 	-webkit-transition: all .2s ease;
@@ -120,4 +124,10 @@ input:focus:-ms-input-placeholder {
 }
 .login-box--bottom a:hover{
 	text-decoration:underline;
+}
+.login-box h2{
+	font-size: 1.7em;
+}
+.login-box p{
+	font-size: 1.2em;
 }
